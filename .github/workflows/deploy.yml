@@ -29,4 +29,4 @@ jobs:
           folder: dist
 
       - name: Clear cache
-          run: rm -rf node_modules dist
+        run: rm -rf node_modules dist
