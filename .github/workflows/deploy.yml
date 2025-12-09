@@ -27,3 +27,6 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
+
+      - name: Clear cache
+          run: rm -rf node_modules dist
