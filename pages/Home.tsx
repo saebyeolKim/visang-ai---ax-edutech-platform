@@ -27,7 +27,7 @@ const HomePage: React.FC<HomeProps> = ({ videos, onVideoPlay }) => {
               src={brandVideo.url}
               poster={brandVideo.posterUrl}
               className="w-full h-full"
-              onEnded={() => setIsEnded( true )}
+              onEnded={() => setIsEnded(true)}
             />
           </div>
         ) : (
