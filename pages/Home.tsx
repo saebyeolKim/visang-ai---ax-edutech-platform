@@ -24,8 +24,8 @@ const HomePage: React.FC<HomeProps> = ({ videos, onVideoPlay }) => {
           // 🔥 1) 영상 재생 중 구간
           <div className="relative w-full h-full">
             <VideoPlayer
-              src={brandVideo.url}
-              poster={brandVideo.posterUrl}
+              src={'https://englisheye-static.s3.dualstack.ap-northeast-2.amazonaws.com/it2cell/kimsb4/Flow.mp4'}
+              poster={'https://englisheye-static.s3.dualstack.ap-northeast-2.amazonaws.com/it2cell/kimsb4/end-banner.png'}
               className="w-full h-full"
               onEnded={() => setIsEnded(true)}
             />
